@@ -1,21 +1,46 @@
 aid: americanendovascular
-name: Americanendovascular
-description: 'Americanendovascular is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/americanendovascular.png
+name: American Endovascular
+description: 'American Endovascular & Amputation Prevention is a vascular medical
+  practice operating outpatient centers across New York City (Brooklyn, Harlem, and
+  Queens) that specializes in minimally invasive, same-day endovascular treatment of
+  peripheral artery disease (PAD) and related circulatory conditions. Services include
+  atherectomy, angioplasty, stent placement, amputation prevention, diagnostic imaging
+  (angiogram, ultrasound, CTA, MRA), neuropathy neurostimulation, dialysis access
+  management, and venous insufficiency care. Surfaced as a portfolio company of
+  Norwest Venture Partners and added to the API Evangelist network; it publishes a
+  public website, blog, and privacy policy but exposes no public developer or API
+  surface.'
 url: https://raw.githubusercontent.com/api-evangelist/americanendovascular/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - norwest-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Unknown
+- Healthcare
+- Vascular
+- Medical
+- Peripheral Artery Disease
+- Endovascular
+- Amputation Prevention
+- New York
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/americanendovascular-domain-security.yml
 - type: Website
   url: https://americanendovascular.com
+- type: Blog
+  url: https://americanendovascular.com/blog/
+- type: PrivacyPolicy
+  url: https://americanendovascular.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
